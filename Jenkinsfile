@@ -32,7 +32,7 @@ pipeline {
         }
         stage('Integration Tests on Staging') {
             steps {
-                echo 'using selenium to run integration test'
+                echo 'usinnng selenium to run integration test'
             }
         }
 
