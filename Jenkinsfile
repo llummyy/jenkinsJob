@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'usinnnnng maven to build code'
+                echo 'usinnnnng mavrren to build code'
             }
         }
         stage('Unit and Integration Tests') {
