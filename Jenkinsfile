@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'usinnnnng mavrren to build code'
+                echo 'using mavrren to build code'
             }
         }
         stage('Unit and Integration Tests') {
@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Security Scan') {
             steps {
-                echo 'checking  vvulnerabilities using OWASP'
+                echo 'checking  vvvulnerabilities using OWASP'
             }
         }
 
