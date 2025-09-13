@@ -39,7 +39,7 @@ pipeline {
       
         stage('Deploy to Production') {
             steps {
-                echo 'Deploying application to production server AWS'
+                echo 'Deployingapplication to production server AWS'
             }
         }
     }
